@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+
+.header {
+  position: static;
+}
+
+.nav-bar {
+  position: relative;
+  background-image: linear-gradient(rgba(235, 1, 165, 0.7), rgba(209, 54, 49, 0.5)), url(ilya-pavlov-wbXdGS_D17U-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.arrow-icon {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.more-icon {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.addbtn {
+  background-color: red;
+  position: absolute;
+  right: 20px;
+  bottom: -30px;
+}
+
+.list {
+  font-family: 'Roboto', sans-serif;
+  margin: 25px 5px;
+}
+
+p {
+  padding: 0 16px;
+  margin: 0;
+  color: #9aa4b9;
+}
+
+.comment {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.mdc-list-item {
+ color: #45457e;
+  position: relative;
+  border-bottom: 2px solid #e5e8ef;
+  height: 70px;
+}
+
+.item__text, p {
+  font-size: 15px;
+  padding: 0;
+}
+
+.mdc-list-item__graphic {
+  margin-right: 10px;
+}
+
+.label-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.icon-star {
+  position: absolute;
+  right: 15px;
+}
+
+.topic-icon {
+  padding-right: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.first-bullet {
+  height: 100px;
+}
+
+.day {
+  padding-left: 20px;
+}
+
+.done-color {
+  color: #d3d7dd;
+  width: 250px;
+  position: absolute;
+  right: 20px;
+}

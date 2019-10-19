@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <title>Remote working</title>
+</head>
+<body>
+  <header class="mdc-top-app-bar mdc-top-app-bar--prominent header">
+    <div class="mdc-top-app-bar__row nav-bar">
+      <i class="material-icons arrow-icon">arrow_back_ios</i>
+      <i class="material-icons more-icon">more_horiz</i>
+      <button class="mdc-fab addbtn" aria-label="Favorite">
+        <span class="mdc-fab__icon material-icons">+</span>
+      </button>
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start header">
+        <span class="mdc-top-app-bar__title">Remote working</span>
+      </section>
+    </div>
+  </header>
+  <section class="list">
+    <p class="day">Today</p>
+    <ul class="mdc-list" role="group" aria-label="List with checkbox items">
+    <li class="mdc-list-item" role="checkbox" aria-checked="false">
+      <span class="mdc-list-item__graphic">
+        <div class="mdc-checkbox">
+          <input type="checkbox"
+                  class="mdc-checkbox__native-control"
+                  id="demo-list-checkbox-item-1"  />
+          <div class="mdc-checkbox__background">
+            <svg class="mdc-checkbox__checkmark"
+                  viewBox="0 0 24 24">
+              <path class="mdc-checkbox__checkmark-path"
+                    fill="none"
+                    d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+            </svg>
+            <div class="mdc-checkbox__mixedmark"></div>
+          </div>
+        </div>
+      </span>
+      <label class="mdc-list-item__text item__text" for="demo-list-checkbox-item-1">
+        <div class="label-container">
+          <div class="smartphone-icon"><i class="material-icons">smartphone</i></div>
+          <span>Design onboarding screen</span>
+          <i class="material-icons icon-star">star</i>
+        <p class="comment">Discuss with the dev first</p></div>
+    </label>
+    </li>
+    <li class="mdc-list-item" role="checkbox" aria-checked="true" tabindex="0">
+      <span class="mdc-list-item__graphic">
+          <div class="mdc-checkbox">
+              <input type="checkbox"
+                      class="mdc-checkbox__native-control"
+                      id="demo-list-checkbox-item-2"
+                      checked />
+              <div class="mdc-checkbox__background">
+                <svg class="mdc-checkbox__checkmark"
+                      viewBox="0 0 24 24">
+                  <path class="mdc-checkbox__checkmark-path"
+                        fill="none"
+                        d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                </svg>
+                <div class="mdc-checkbox__mixedmark"></div>
+              </div>
+            </div>
+      </span>
+      <label class="mdc-list-item__text" for="demo-list-checkbox-item-2">
+        <div class="label-container"><i class="material-icons topic-icon">
+        brush</i>Create a new icon set<i class="material-icons icon-star">star</i></div>
+      </label>
+    </li>
+  </ul>
+  <p class="day">Tomorrow</p>
+  <ul class="mdc-list" role="group" aria-label="List with checkbox items">
+  <li class="mdc-list-item" role="checkbox" aria-checked="false">
+    <span class="mdc-list-item__graphic">
+      <div class="mdc-checkbox">
+        <input type="checkbox"
+                class="mdc-checkbox__native-control"
+                id="demo-list-checkbox-item-1"  />
+        <div class="mdc-checkbox__background">
+          <svg class="mdc-checkbox__checkmark"
+                viewBox="0 0 24 24">
+            <path class="mdc-checkbox__checkmark-path"
+                  fill="none"
+                  d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+          </svg>
+          <div class="mdc-checkbox__mixedmark"></div>
+        </div>
+      </div>
+    </span>
+    <label class="mdc-list-item__text" for="demo-list-checkbox-item-1"><div class="label-container">
+      <i class="material-icons topic-icon">web_asset</i>Code a new portfolio web
+      <i class="material-icons icon-star">star</i></div>
+    </label>
+  </li>
+  <li class="mdc-list-item" role="checkbox" aria-checked="true" tabindex="0">
+    <span class="mdc-list-item__graphic">
+        <div class="mdc-checkbox">
+            <input type="checkbox"
+                    class="mdc-checkbox__native-control"
+                    id="demo-list-checkbox-item-2"
+                    checked />
+            <div class="mdc-checkbox__background">
+              <svg class="mdc-checkbox__checkmark"
+                    viewBox="0 0 24 24">
+                <path class="mdc-checkbox__checkmark-path"
+                      fill="none"
+                      d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+              </svg>
+              <div class="mdc-checkbox__mixedmark"></div>
+            </div>
+          </div>
+    </span>
+    <label class="mdc-list-item__text" for="demo-list-checkbox-item-1"><div class="label-container">
+      <i class="material-icons topic-icon">email</i>Send proposal email
+      <i class="material-icons icon-star">star</i></div>
+    </label>
+  </li>
+  </ul>
+  <div class="label-container done-color">
+    <span class="done">Design onboarding screen</span>
+    <i class="material-icons">delete</i>
+  </div>
+  </section>
+</body>
+</html>
